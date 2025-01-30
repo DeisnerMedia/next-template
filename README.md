@@ -19,13 +19,13 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template, replacing `my-new-project` with your desired project name, run the following command:
 
 ```bash
-npx create-next-app my-new-project -e https://github.com/heroui-inc/next-app-template
+npx create-next-app my-new-project -e https://github.com/DeisnerMedia/next-template
 ```
 
 Alternatively, you can clone the repository manually and set it up:
 
 ```bash
-git clone https://github.com/heroui-inc/next-app-template.git my-new-project
+git clone https://github.com/DeisnerMedia/next-template.git my-new-project
 cd my-new-project
 rm -rf .git
 git init
@@ -67,5 +67,5 @@ After modifying the `.npmrc` file, run `pnpm install` again to ensure that depen
 
 ## License
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/DeisnerMedia/next-template/blob/main/LICENSE).
 
