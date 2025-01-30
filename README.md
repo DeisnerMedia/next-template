@@ -2,8 +2,6 @@
 
 This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
-
 ## Technologies Used
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
@@ -16,17 +14,36 @@ This is a template for creating applications using Next.js 14 (app directory) an
 
 ## How to Use
 
-### Use the template with create-next-app
+### Create a new project with this template
 
-To create a new project based on this template using `create-next-app`, run the following command:
+To create a new project based on this template, replacing `my-new-project` with your desired project name, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+npx create-next-app my-new-project -e https://github.com/heroui-inc/next-app-template
 ```
+
+Alternatively, you can clone the repository manually and set it up:
+
+```bash
+git clone https://github.com/heroui-inc/next-app-template.git my-new-project
+cd my-new-project
+rm -rf .git
+git init
+```
+
+### Rename the template project
+
+If you want to set a custom project name in the package configuration, update the `package.json` file:
+
+```bash
+"name": "my-custom-project"
+```
+
+You can also update other relevant metadata in `package.json` such as version, author, and description.
 
 ### Install dependencies
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+You can use one of the following package managers: `npm`, `yarn`, `pnpm`, or `bun`. Example using `npm`:
 
 ```bash
 npm install
@@ -46,8 +63,9 @@ If you are using `pnpm`, you need to add the following code to your `.npmrc` fil
 public-hoist-pattern[]=*@heroui/*
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+After modifying the `.npmrc` file, run `pnpm install` again to ensure that dependencies are installed correctly.
 
 ## License
 
 Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+
